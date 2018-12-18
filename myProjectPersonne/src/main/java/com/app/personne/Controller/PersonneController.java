@@ -29,7 +29,7 @@ public class PersonneController {
 	
 	@GetMapping("/list")
 	public List<Personne> getAllPersonne() {
-		
+         // demarage		
 		return personneRepository.findAll();
 	}
 	
